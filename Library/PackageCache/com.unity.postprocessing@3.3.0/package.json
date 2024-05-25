@@ -1,0 +1,23 @@
+{
+  "name": "com.unity.postprocessing",
+  "version": "3.3.0",
+  "displayName": "Post Processing",
+  "unity": "2019.4",
+  "unityRelease": "19f1",
+  "description": "The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+  "dependencies": {
+    "com.unity.modules.physics": "1.0.0"
+  },
+  "_upm": {
+    "changelog": "### Fixed\n- Fixed some post effects not scaling correctly when dynamic resolution is enabled on a camera's target texture (case 1166603)\n- Fixed obsolete API call GetScriptingDefineSymbolsForGroup\n- Remove support for OpenGL ES 2.0 in Unity 2023.1 or newer"
+  },
+  "upmCi": {
+    "footprint": "b959bc2a78647b56209258ec1e18948ee2e3ee3a"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.postprocessing@3.3/manual/index.html",
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/Graphics.git",
+    "type": "git",
+    "revision": "28cd9b8713470614fe9a99cd6096069f2631a903"
+  }
+}
