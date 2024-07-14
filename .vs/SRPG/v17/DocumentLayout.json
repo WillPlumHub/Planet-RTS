@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\willp\\SRPG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{568B1F9B-85C1-2F21-6BFC-765D3980929D}|Assembly-CSharp.csproj|c:\\users\\willp\\srpg\\assets\\scripts\\charmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{568B1F9B-85C1-2F21-6BFC-765D3980929D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{568B1F9B-85C1-2F21-6BFC-765D3980929D}|Assembly-CSharp.csproj|c:\\users\\willp\\srpg\\assets\\scripts\\camrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{568B1F9B-85C1-2F21-6BFC-765D3980929D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{568B1F9B-85C1-2F21-6BFC-765D3980929D}|Assembly-CSharp.csproj|C:\\Users\\willp\\SRPG\\assets\\planetkatamari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{568B1F9B-85C1-2F21-6BFC-765D3980929D}|Assembly-CSharp.csproj|solutionrelative:assets\\planetkatamari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{568B1F9B-85C1-2F21-6BFC-765D3980929D}|Assembly-CSharp.csproj|C:\\Users\\willp\\SRPG\\assets\\scripts\\cursorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{568B1F9B-85C1-2F21-6BFC-765D3980929D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cursorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{568B1F9B-85C1-2F21-6BFC-765D3980929D}|Assembly-CSharp.csproj|C:\\Users\\willp\\SRPG\\assets\\coordinates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{568B1F9B-85C1-2F21-6BFC-765D3980929D}|Assembly-CSharp.csproj|solutionrelative:assets\\coordinates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{568B1F9B-85C1-2F21-6BFC-765D3980929D}|Assembly-CSharp.csproj|C:\\Users\\willp\\SRPG\\assets\\bst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{568B1F9B-85C1-2F21-6BFC-765D3980929D}|Assembly-CSharp.csproj|solutionrelative:assets\\bst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "charMove.cs",
+              "DocumentMoniker": "C:\\Users\\willp\\SRPG\\Assets\\Scripts\\charMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\charMove.cs",
+              "ToolTip": "C:\\Users\\willp\\SRPG\\Assets\\Scripts\\charMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\charMove.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T05:05:49.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CamRotate.cs",
+              "DocumentMoniker": "C:\\Users\\willp\\SRPG\\Assets\\Scripts\\CamRotate.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CamRotate.cs",
+              "ToolTip": "C:\\Users\\willp\\SRPG\\Assets\\Scripts\\CamRotate.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CamRotate.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAQwFQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T20:49:42.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "planetKatamari.cs",
+              "DocumentMoniker": "C:\\Users\\willp\\SRPG\\Assets\\planetKatamari.cs",
+              "RelativeDocumentMoniker": "Assets\\planetKatamari.cs",
+              "ToolTip": "C:\\Users\\willp\\SRPG\\Assets\\planetKatamari.cs",
+              "RelativeToolTip": "Assets\\planetKatamari.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T04:59:27.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BST.cs",
+              "DocumentMoniker": "C:\\Users\\willp\\SRPG\\Assets\\BST.cs",
+              "RelativeDocumentMoniker": "Assets\\BST.cs",
+              "ToolTip": "C:\\Users\\willp\\SRPG\\Assets\\BST.cs",
+              "RelativeToolTip": "Assets\\BST.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:10:09.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "coordinates.cs",
+              "DocumentMoniker": "C:\\Users\\willp\\SRPG\\Assets\\coordinates.cs",
+              "RelativeDocumentMoniker": "Assets\\coordinates.cs",
+              "ToolTip": "C:\\Users\\willp\\SRPG\\Assets\\coordinates.cs",
+              "RelativeToolTip": "Assets\\coordinates.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:12:09.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CursorScript.cs",
+              "DocumentMoniker": "C:\\Users\\willp\\SRPG\\Assets\\Scripts\\CursorScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CursorScript.cs",
+              "ToolTip": "C:\\Users\\willp\\SRPG\\Assets\\Scripts\\CursorScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CursorScript.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwB0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T20:44:40.341Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

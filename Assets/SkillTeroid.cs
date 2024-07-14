@@ -3,16 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SkillTeroid : MonoBehaviour {
+    public float radius;
     public float skillCost;
     public float fallSpeed;
     public Vector3 fallDirection;
     public bool active = false;
+    public GameObject effect;
     public Transform target;
     public CursorScript skillCursorScript;
     public SkillPntManager skillPntManager;
 
     private void Start() {
         fallDirection = target.position - transform.position;
+        radius = target.transform.localScale.x;
     }
 
     // Update is called once per frame
@@ -31,7 +34,7 @@ public class SkillTeroid : MonoBehaviour {
             if (skillCursorScript.hit.collider.CompareTag("Skill")) {
                 SkillTeroid skillTeroid = skillCursorScript.hit.collider.gameObject.GetComponent<SkillTeroid>();
                 if (skillTeroid != null && Input.GetMouseButtonDown(0) && skillPntManager.skillPnts >= skillTeroid.skillCost) {
-                    // Activate the skill only if the component is found and the cost is affordable
+                    // Activate the skill only if the component is found & you have enough skill points
                     skillTeroid.active = true;
                 }
             }
@@ -44,8 +47,9 @@ public class SkillTeroid : MonoBehaviour {
 
 
         // Check if the object has reached the target position
-        if (Vector3.Distance(transform.position, target.position) < 0.1f)
+        if (Vector3.Distance(transform.position, target.position) < radius)
         {
+            Instantiate(effect, transform.position, transform.rotation);
             Destroy(gameObject);
         }
     }

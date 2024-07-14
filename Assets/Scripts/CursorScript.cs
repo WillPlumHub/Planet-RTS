@@ -22,12 +22,12 @@ public class CursorScript : MonoBehaviour
 
     void Update()
     {
-        // Cast a ray from the mouse position
+        // Cast a ray from the camera to the mouse's position on screen
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         
 
         // Check if the ray hits something
-        if (Physics.Raycast(ray, out hit)) {
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity)) {
             // Draw the ray as red
             Debug.DrawRay(ray.origin, ray.direction * hit.distance, Color.red);
 

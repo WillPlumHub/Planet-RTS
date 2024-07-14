@@ -59,14 +59,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\dynamicDOF.cs" />
+    <Compile Include="Assets\effect.cs" />
     <Compile Include="Assets\Scripts\CamRotate.cs" />
+    <Compile Include="Assets\planetKatamari.cs" />
     <Compile Include="Assets\Scripts\SkillPntManager.cs" />
     <Compile Include="Assets\Scripts\CursorScript.cs" />
+    <Compile Include="Assets\Scripts\charMove.cs" />
     <Compile Include="Assets\SkillTeroid.cs" />
     <Compile Include="Assets\Scripts\SkillPntCollect.cs" />
     <Compile Include="Assets\Scripts\SkillPnt.cs" />
     <Compile Include="Assets\fullTree.cs" />
     <Compile Include="Assets\Scripts\ConstellationZoom.cs" />
+    <Compile Include="Assets\BST.cs" />
+    <Compile Include="Assets\coordinates.cs" />
     <Compile Include="Assets\ResolutionController.cs" />
   </ItemGroup>
   <ItemGroup>

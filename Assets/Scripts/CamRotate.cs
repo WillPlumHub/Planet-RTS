@@ -44,13 +44,11 @@ public class CamRotate : MonoBehaviour
     public float deceleration;
     #endregion
 
-    void Start()
-    {
+    void Start() {
         cam = GetComponent<Camera>();
         zoom = cam.fieldOfView;
 
-        if (target == null)
-        {
+        if (target == null) {
             Debug.LogError("Target not assigned for CameraOrbit script!");
             return;
         }
@@ -108,7 +106,7 @@ public class CamRotate : MonoBehaviour
 
         if (!isRotating)
         {
-            transform.RotateAround(target.transform.position, Vector3.up, lastMouseS * Time.deltaTime);
+            transform.RotateAround(target.transform.position, lastMouseV, lastMouseS * Time.deltaTime);
         }
 
         decelerate();
@@ -128,7 +126,7 @@ public class CamRotate : MonoBehaviour
     private void cursorShoot()
     {
         // Bit shift the index of the layer (8) to get a bit mask
-        int layerMask = 1 << 8;
+        int layerMask = ~(1 << LayerMask.NameToLayer("IgnoreRaycast"));
         // This would cast rays only against colliders in layer 8.
 
         RaycastHit hit;
