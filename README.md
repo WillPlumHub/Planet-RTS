@@ -11,7 +11,7 @@ The game world is rendered as a sequence of fully rotatable planets with seamles
 Planetary Coordinate & Movement System:
 World positions are calculated using spherical coordinates to ensure consistent movement and placement regardless of latitude or longitude. This allows for features like global fog-of-war, long-range artillery, or orbital unit paths to function naturally in a 3D space.
 
-Simplified Control for Macro Decisions
+Simplified Control for Macro Decisions:
 Gameplay is designed to reduce traditional micromanagement, encouraging players to make high-level strategic choices and execute skillful maneuvers within an arcade-like control framework.
 
 
