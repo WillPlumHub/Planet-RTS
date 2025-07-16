@@ -38,14 +38,12 @@ Once players unify multiple planets into a mega-planet, the final objective is t
 
 
 # Technologies & Architecture:
-    Unity (C#): Core engine used for 3D rendering, input, and system management;
-    Spherical Navigation Logic: Custom math for movement, orientation, and targeting;
-    Modular Component Design: Independent systems for pathfinding, fog of war, building logic.
+Unity (C#): Core engine used for 3D rendering, input, and system management;
+Spherical Navigation Logic: Custom math for movement, orientation, and targeting;
+Modular Component Design: Independent systems for pathfinding, fog of war, building logic.
 
 
 # Current Status & Future Plans:
-    Refactoring base-building and resource systems for spherical terrain;
-    Developing planetary fog of war and line-of-sight mechanics;
-    Exploring unique unit archetypes designed for 3D space traversal (e.g., tunneling, orbiting);
-    Prototyping arcade-style conquest progression and mega-planet mechanics.;
-    Early concepting for asymmetric factions with spatially distinct advantages.
+Exploring unique unit archetypes designed for 3D space traversal (e.g., tunneling, orbiting);
+Prototyping arcade-style conquest progression and mega-planet mechanics;
+Developing arcade-style score architecture and distinct 'run' loop
